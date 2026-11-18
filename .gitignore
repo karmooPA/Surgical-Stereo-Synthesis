@@ -1,0 +1,43 @@
+# Local datasets and generated artifacts
+/data/**
+!/data/raw/
+!/data/processed/
+!/data/splits/
+!/data/*/.gitkeep
+/results/**
+!/results/figures/
+!/results/metrics/
+!/results/*/.gitkeep
+/checkpoints/*
+!/checkpoints/.gitkeep
+/experiments/runs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Python environments, builds, and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets/
