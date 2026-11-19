@@ -41,3 +41,10 @@ dist/
 *.key
 credentials.json
 secrets/
+
+# Dataset archives and local inspection outputs
+*.zip
+*.tar
+*.tar.gz
+.DS_Store
+__MACOSX/

@@ -1,1 +1,5 @@
-# Runtime dependencies will be added when the baseline is implemented.
+# Stage 2 dataset pipeline
+Pillow
+torch
+PyYAML
+pytest

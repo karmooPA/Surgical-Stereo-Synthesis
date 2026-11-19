@@ -1,0 +1,16 @@
+# Paths are intentionally environment-specific. Set DATASET_ROOT or override
+# --root on the inspection command instead of editing Python source code.
+data:
+  root: null
+  input_view: image01
+  target_view: image02
+  sequence_pattern: "rectified*"
+  # [height, width], or null to preserve the source dimensions.
+  image_size: null
+
+loader:
+  batch_size: 16
+  num_workers: 0
+  shuffle: true
+  pin_memory: false
+  drop_last: false
