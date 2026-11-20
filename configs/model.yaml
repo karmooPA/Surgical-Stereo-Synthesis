@@ -1,0 +1,12 @@
+# U-Net architecture configuration for the single-frame stereo baseline.
+# `depth` is the number of encoder skip stages AND pooling/decoder stages.
+# Channel widths and output activation are project-level choices because the
+# paper does not publish a complete layer-by-layer specification.
+model:
+  name: unet
+  in_channels: 3
+  out_channels: 3
+  base_channels: 32
+  depth: 5
+  max_channels: 512
+  output_activation: sigmoid

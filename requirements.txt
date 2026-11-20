@@ -3,3 +3,5 @@ Pillow
 torch
 PyYAML
 pytest
+
+numpy
