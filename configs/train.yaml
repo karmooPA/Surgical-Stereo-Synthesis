@@ -1,0 +1,34 @@
+paths:
+  dataset: configs/dataset.yaml
+  model: configs/model.yaml
+  loss: configs/loss.yaml
+
+data:
+  image_size: [192, 384]
+  validation_fraction: 0.2
+  split_by: sequence
+  split_seed: 42
+
+training:
+  epochs: 100
+  seed: 42
+  device: auto
+  mixed_precision: true
+  log_interval_steps: 20
+  output_dir: runs/stereo_unet
+  checkpoint_dir: checkpoints/stereo_unet
+  resume_from: null
+  save_last: true
+  save_best: true
+  gradient_clip_norm: null
+
+optimizer:
+  name: adam
+  learning_rate: 0.0001
+  betas: [0.9, 0.999]
+  weight_decay: 0.0
+
+validation:
+  every_n_epochs: 1
+  monitor: perceptual_loss
+  mode: min
