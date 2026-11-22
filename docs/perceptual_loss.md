@@ -86,5 +86,16 @@ All current unit tests use pretrained=False. Verification with downloaded ImageN
 
 The loss implementation, configuration factory, and initial CPU tests are complete.
 
-Configuration loading has been tested with pretrained weights disabled. Actual ImageNet-pretrained weight verification remains pending.
+Configuration loading has been verified.
+
+ImageNet-pretrained VGG16 (IMAGENET1K_V1) was successfully downloaded and tested.
+
+Verification results:
+- Three feature blocks successfully loaded.
+- Input resolution: 192 x 384.
+- Finite perceptual loss.
+- Successful gradient propagation.
+- VGG16 parameters remained frozen.
+
+The implementation and local verification are complete.
 EOF
