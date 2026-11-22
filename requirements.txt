@@ -5,3 +5,5 @@ PyYAML
 pytest
 
 numpy
+
+torchvision

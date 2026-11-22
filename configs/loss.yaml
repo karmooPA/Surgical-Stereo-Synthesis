@@ -1,0 +1,17 @@
+perceptual_loss:
+  name: vgg16
+  pretrained: true
+  feature_blocks: 3
+  distance: mae
+  reduction: mean
+  feature_weights:
+    - 1.0
+    - 1.0
+    - 1.0
+  input:
+    channels: 3
+    value_range:
+      - 0.0
+      - 1.0
+    normalization: imagenet
+  freeze_backbone: true

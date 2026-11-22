@@ -48,3 +48,5 @@ secrets/
 *.tar.gz
 .DS_Store
 __MACOSX/
+
+/tests/.cph/
