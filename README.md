@@ -13,15 +13,15 @@ Each row presents:
 
 ### Result 1 — rectified27
 
-![Result 1](assets/results/rectified27.jpeg)
+![Result 1](assets/results/fbe58a86-7c69-48ee-a823-03243f2b04a1.jpeg)
 
 ### Result 2 — rectified09
 
-![Result 2](assets/results/rectified09.jpeg)
+![Result 2](assets/results/3b6fec6a-c18c-4b61-adcc-68cde08ee8b8.jpeg)
 
 ### Result 3 — rectified21
 
-![Result 3](assets/results/rectified21.jpeg)
+![Result 3](assets/results/d2a551a7-7461-4374-8940-98aef9727b1c.jpeg)
 
 These qualitative results illustrate the model's ability to generate an estimated right-camera view from a single left-camera image.
 
